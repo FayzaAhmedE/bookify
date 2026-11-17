@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class SplashViewBody extends StatelessWidget {
+  const SplashViewBody({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Center(child: Image.asset('assets/images/logo_white.png', width: 400, height: 400)),
+      ],
+    );
+  }
+}
